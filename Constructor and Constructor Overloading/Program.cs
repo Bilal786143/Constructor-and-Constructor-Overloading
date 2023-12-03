@@ -22,8 +22,8 @@ namespace Constructor_and_Constructor_Overloading
         static void Main(string[] args)
         {
             Program p = new Program();
-            Program FirstConstructor = new Program(10, 20);
-            Program SecondConstructor = new Program(10.23f, 1212.1f);
+            Program firstConstructor = new Program(10, 20);
+            Program secondConstructor = new Program(10.23f, 1212.1f);
             Program thirdConstructor = new Program(10.23f);
             Console.ReadLine();
         }
